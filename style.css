@@ -28,9 +28,9 @@ header {
 
 #conteudoBingo {
     display: flex;
-    justify-content: center; /* centraliza no eixo horizontal */
-    align-items: flex-start; /* ou center, se quiser centralizar verticalmente também */
-    gap: 15%; /* espaço entre as sections */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15%;
     padding: 20px;
 }
 
@@ -195,18 +195,4 @@ th {
     flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
-}
-
-.numeroSorteado {
-    width: 45px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    border: 4px solid #4c0064;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #495057;
 }
