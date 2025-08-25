@@ -26,11 +26,17 @@ header {
     letter-spacing: 3px;
 }
 
+#conteudoBingo {
+    display: flex;
+    justify-content: center; /* centraliza no eixo horizontal */
+    align-items: flex-start; /* ou center, se quiser centralizar verticalmente também */
+    gap: 15%; /* espaço entre as sections */
+    padding: 20px;
+}
+
 #secaoTabela {
     padding-top: 15px;
     justify-content: center;
-    display: flex;
-    gap: 15%;
 }
 
 tbody {
@@ -164,4 +170,43 @@ th {
     font-size: 45px;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+#historicoSorteadosContainer {
+    margin-top: 20px;
+    max-width: 340px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 4px solid #4c0064;
+    color: #4c0064;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    min-height: 100px;
+    max-height: 160px;
+    overflow-y: auto;
+    display: none;
+}
+
+#listaNumerosSorteados {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.numeroSorteado {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 4px solid #4c0064;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #495057;
 }
